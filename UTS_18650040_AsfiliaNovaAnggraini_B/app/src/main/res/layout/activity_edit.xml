@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:id="@+id/textView12"
+                android:textSize="22sp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Data"
+                android:textColor="#564e7a"/>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nomor Unsur"
+                android:textColor="#546e7a"/>
+            <EditText
+                android:id="@+id/nomor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="10dp"
+                android:background="@xml/input"
+                android:layout_marginBottom="10dp"
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simbol Unsur"
+                android:textColor="#546e7a"/>
+
+            <EditText
+                android:id="@+id/simbol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="10dp"
+                android:background="@xml/input"
+                android:layout_marginBottom="10dp"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Unsur"
+                android:textColor="#546e7a"/>
+
+            <EditText
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="10dp"
+                android:background="@xml/input"
+                android:layout_marginBottom="10dp"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keterangan"
+                android:textColor="#546e7a"/>
+
+            <EditText
+                android:id="@+id/keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:ems="10"
+                android:padding="10dp"
+                android:background="@xml/input"
+                android:layout_marginBottom="10dp"
+                android:inputType="textMultiLine"
+                android:gravity="top"
+                android:overScrollMode="always"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Data"
+                android:background="@xml/button"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

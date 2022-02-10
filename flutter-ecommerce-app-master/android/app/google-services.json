@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1083993727180",
+    "firebase_url": "https://first-ecom.firebaseio.com",
+    "project_id": "first-ecom",
+    "storage_bucket": "first-ecom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083993727180:android:cae8c852cb39fa4c7e6269",
+        "android_client_info": {
+          "package_name": "com.example.flutter_ecom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083993727180-h6j6j3b2p3tr2tbeo63g2t2eem6e3pi3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLgwrD2RQluUMAPoeu_4gPctnnWaQIZjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083993727180-h6j6j3b2p3tr2tbeo63g2t2eem6e3pi3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

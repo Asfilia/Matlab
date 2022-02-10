@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "18650040_AsfiliaNovaAnggrain_CRUD_SQLITE"

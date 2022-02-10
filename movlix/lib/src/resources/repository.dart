@@ -1,0 +1,18 @@
+import 'dart:async';
+import 'package:movlix/src/model/item_model.dart';
+import 'package:movlix/src/model/movie_detail_model.dart';
+import 'package:movlix/src/model/movie_image_model.dart';
+import 'movie_api_provider.dart';
+
+class Repository{
+  final moviesApiProvider = MovieAppProvider();
+
+  Future<MovieDetailModel> fetchMovieDetail(int movieId)=>
+      moviesApiProvider.fetchMovieDetail(movieId);
+
+  Future<MovieImageModel> fetchMovieImages(int movieId)=>
+      moviesApiProvider.fetchMovieImages(movieId);
+
+  Future<ItemModel> fetchMovieList(String type)=>
+      moviesApiProvider.fetchMovieList(type);
+}

@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "18650055_Lingga Wahyu Rochim_CRUD_SQLITE"
